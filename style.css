@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background: #fff;
+    padding: 30px;
+}
+
+main{
+    display: flex;
+}
+
+/*mobile*/
+
+@media screen and (max-width: 481px){
+    body{
+        background: blue;
+    }
+    main{
+        flex-direction: column;
+    }
+}
+
+/*Extra Small Devices*/
+
+@media (min-width: 481px) and (max-width: 767px){
+    body{
+        background: orangered;
+    }
+}
+
+/*small tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        background: pink;
+    }
+}
+
+/*tablets/Leptops*/
+@media (min-width: 992px) and (max-width: 1199px){
+    body{
+        background: purple;
+    }
+}
+
+/*Desktop*/
+@media (min-width:1200px) and (max-width: 1999px){
+    body{
+        background: wheat;
+    }
+}
+
+/*Desktop*/
+@media (min-width:1920px){
+    body{
+        background: green;
+    }
+}
